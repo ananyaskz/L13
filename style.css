@@ -1,0 +1,27 @@
+*{box-sizing:border-box;font-family:Arial, sams-serif}
+body{
+    margin:0;min-hieght:100vh;display:flex;align-items:center;justify-content:center;background:#f0f0f0;
+}
+.calc{
+    width:280px;
+    background:#111;
+    border:2px solid #222;
+    padding:14px 12px 12px
+}
+.title{
+    color:#fff;
+    text-align:center;
+    font-size:26px;
+    font-weight:700;
+    margin:2px 0 12px
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+}
+#result{
+    grid-column:1 / span 3;
+    height:48px;
+    border:none;
+}
